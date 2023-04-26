@@ -40,7 +40,7 @@ while 1==1:                                                 #Loops etc.
         add_discord_name = input("Discord name + tag: ")
         print("\n")
         discord.update({add_name.capitalize(): add_discord_name})
-        print("Adding ", l_nimi.capitalize(), " to the list...")
+        print("Adding ", add_name.capitalize(), " to the list...")
         time.sleep(random.randint(1, 4))
         with open("discord_list.txt", "w") as fp:
             json.dump(discord, fp)
