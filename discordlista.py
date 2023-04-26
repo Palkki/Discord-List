@@ -28,9 +28,11 @@ print("-"*20,"\n"
 print("-"*20)
 
 while 1==1:                                                 #Looppeja yms, että pysyy kokoajan käynnis
+    
     while action == "":
         action = ""
         action = input("Mitä haluat tehdä: ")
+        
     if action.lower() in add:                               #Jos haluaa lisätä tai päivittää listaa
         print("-"*20)
         print("\n")
@@ -47,6 +49,7 @@ while 1==1:                                                 #Looppeja yms, että
         print("\n")
         action = ""
         print("-" * 20)
+        
     elif action.lower() in remove:                          #Jos haluaa poistaa listalta
         print("-" * 20)
         print("\n")
@@ -62,6 +65,7 @@ while 1==1:                                                 #Looppeja yms, että
         print("\n")
         action = ""
         print("-" * 20)
+        
     elif action.lower() in list:                            #Jos haluaa nähdä listan
         print("-" * 20)
         print("\n")
@@ -70,6 +74,7 @@ while 1==1:                                                 #Looppeja yms, että
         print("\n")
         action = ""
         print("-" * 20)
+        
     else:                                                   #Antaa ohjeet uudestaan, jos kirjoittaa väärin
         print("-" * 20, "\n"
                         "Komennot: \n"
