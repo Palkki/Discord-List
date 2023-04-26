@@ -78,4 +78,3 @@ while 1==1:                                                 #Looppeja yms, että
                         "   Lista\n")
         action = ""
         print("-" * 20)
-input('Press Enter to Continue')
